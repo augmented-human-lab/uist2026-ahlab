@@ -1,0 +1,1232 @@
+{
+  "conference": {
+    "name": "UIST 2026",
+    "fullName": "The 39th Annual ACM Symposium on User Interface Software and Technology (UIST)",
+    "dates": {
+      "start": "2026-11-02",
+      "end": "2026-11-05",
+      "label": "2-5 November 2026"
+    },
+    "venue": "Renaissance Center, Detroit (program rooms on Levels 3-5); Doctoral Symposium at U-M Detroit Center (Dearborn & Flint rooms)",
+    "city": "Detroit, MI USA",
+    "timezone": "America/Detroit",
+    "url": "https://uist.acm.org/2026/",
+    "programUrl": "https://programs.sigchi.org/uist/2026",
+    "searchUrl": "https://programs.sigchi.org/uist/2026/search/content?searchKey=Suranga",
+    "dataSource": "https://files.sigchi.org/conference/program/UIST/2026",
+    "dataPublished": "2026-11-02 04:35:34+00",
+    "dataVersion": 36
+  },
+  "entries": [
+    {
+      "id": 262857,
+      "importedId": "papers6481",
+      "type": "Paper",
+      "track": "Papers",
+      "title": "FleetScape: A Mixed Reality Sandtable for Spatial Supervision and Control of Scalable Drone Fleets",
+      "authors": [
+        {
+          "name": "Peisen Xu",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Department of Computer Science"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "IPAL"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Jérémie Garcia",
+          "affiliations": [
+            {
+              "country": "France",
+              "city": "Toulouse",
+              "institution": "Fédération ENAC ISAE-SUPAERO ONERA, Université de Toulouse"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Peter Cleveland",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Augmented Human Lab, School of Computing"
+            }
+          ],
+          "ahlSlug": "peter-cleveland"
+        },
+        {
+          "name": "Wei Tsang Ooi",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Computer Science"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Christophe Jouffrais",
+          "affiliations": [
+            {
+              "country": "France",
+              "city": "Toulouse",
+              "institution": "Univ of Toulouse 3",
+              "dsl": "IRIT"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "CNRS",
+              "dsl": "IPAL"
+            }
+          ],
+          "ahlSlug": null
+        }
+      ],
+      "abstract": "As autonomous drone deployments scale from individual units to coordinated swarms, the human operator’s role shifts from direct piloting to high-level supervision. Current interfaces often treat multi-drone control as a scaled-up version of single-drone operation. We instead investigate how reframing fleet supervision as spatial interaction can better support the spatial, temporal, and safety demands of complex missions. We present FleetScape, a Mixed Reality (MR) sandtable system that externalizes layered real-time mission, safety, and environmental data while enabling fluid transitions between manual intervention and autonomous supervision. We developed a high-fidelity building inspection simulation that generates and streams synchronized multi-drone and environmental data for MR visualizations. We used this prototype to conduct a user study with six experienced drone pilots managing fleets of up to 15 drones. Our findings show that FleetScape supports situational awareness through layered spatial representations and clarifies control mode transitions. However, a limit to situational awareness was observed as fleet size increases, leading to different supervisory strategies. Finally, we derive design implications for supporting scalable drone fleet supervision.",
+      "keywords": [
+        "Spatial Interaction",
+        "XR, AR & VR",
+        "Human-Robot Interaction",
+        "Swarm Robotics"
+      ],
+      "session": {
+        "id": 278208,
+        "name": "Directing, Supervising, and Embodying Robots",
+        "note": null
+      },
+      "date": "2026-11-04",
+      "day": "Wednesday",
+      "start": "2026-11-04T09:00:00-05:00",
+      "end": "2026-11-04T10:30:00-05:00",
+      "timeLocal": "9:00 AM - 10:30 AM EST",
+      "timezone": "America/Detroit",
+      "tzAbbrev": "EST",
+      "timeNote": "Session time slot; the program does not give per-presentation times within the session.",
+      "room": "Marquette",
+      "floor": "Renaissance Center Level 5",
+      "doi": null,
+      "acmDlUrl": null,
+      "videos": [],
+      "awards": [],
+      "url": "https://programs.sigchi.org/uist/2026/program/content/262857",
+      "relatedEntryId": 277889,
+      "ahl": {
+        "projectSlug": null,
+        "projectUrl": null,
+        "image": null,
+        "matchNote": null,
+        "members": [
+          {
+            "name": "Peter Cleveland",
+            "slug": "peter-cleveland",
+            "url": "https://ahlab.org/people/peter-cleveland/",
+            "section": "Current Team"
+          }
+        ]
+      }
+    },
+    {
+      "id": 262865,
+      "importedId": "papers1463",
+      "type": "Short Papers",
+      "track": "Short Papers",
+      "title": "OpenGut: An Open-Source Platform for Gut-Computer Interaction Research",
+      "authors": [
+        {
+          "name": "Muftee Mysan",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore",
+              "dsl": "Augmented Human Lab"
+            },
+            {
+              "country": "Sri Lanka",
+              "city": "Moratuwa",
+              "institution": "University of Moratuwa",
+              "dsl": "Faculty of Engineering"
+            }
+          ],
+          "ahlSlug": "mohamed-muftee"
+        },
+        {
+          "name": "Soundarya Ramesh",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore",
+              "dsl": "Augmented Human Lab"
+            }
+          ],
+          "ahlSlug": "soundarya-ramesh"
+        },
+        {
+          "name": "Peter Cleveland",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Augmented Human Lab, School of Computing"
+            }
+          ],
+          "ahlSlug": "peter-cleveland"
+        },
+        {
+          "name": "Ryo Hajika",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Smart Systems Institute"
+            }
+          ],
+          "ahlSlug": "ryo-hajika"
+        },
+        {
+          "name": "Mia Huong Nguyen",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Augmented Human Lab"
+            }
+          ],
+          "ahlSlug": "mia-huong-nguyen"
+        },
+        {
+          "name": "Jochen Huber",
+          "affiliations": [
+            {
+              "country": "Germany",
+              "city": "Tuttlingen",
+              "institution": "Furtwangen University"
+            }
+          ],
+          "ahlSlug": "jochen-huber"
+        },
+        {
+          "name": "Marianna Obrist",
+          "affiliations": [
+            {
+              "country": "United Kingdom",
+              "city": "London",
+              "institution": "University College London",
+              "dsl": "Computer Science"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Suranga Nanayakkara",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore",
+              "dsl": "Augmented Human Lab"
+            }
+          ],
+          "ahlSlug": "suranga-nanayakkara"
+        }
+      ],
+      "abstract": "Researchers are increasingly exploring the gut as a human-computer interface due to its gut-brain axis, linking physiological states with emotion and cognition. Despite its potential, the gut research space remains highly fragmented and underexplored. This is largely due to the absence of open and accessible hardware and software tools that could enable systematic investigation across disciplines and communities. To address this gap, we conducted semi-structured interviews with six experts to identify pain points in using existing platforms. Based on the themes identified, we formulated a set of requirements, and developed OpenGut, a rapid prototyping platform for gut research. Our open source platform consists of three main components: a wearable hardware platform for data capture and playback, a graphical user interface for visualization and analysis, as well as accompanying documentation for platform setup and customization. We perform technical evaluation of OpenGut for its signal quality, noise suppression, as well as outline potential usage scenarios for gut research.",
+      "keywords": [
+        "gut-computer interaction",
+        "open source platform",
+        "bowel sounds"
+      ],
+      "session": {
+        "id": 278233,
+        "name": "Sensing from Within: Ears, Mouths, and Guts",
+        "note": null
+      },
+      "date": "2026-11-05",
+      "day": "Thursday",
+      "start": "2026-11-05T14:00:00-05:00",
+      "end": "2026-11-05T15:00:00-05:00",
+      "timeLocal": "2:00 PM - 3:00 PM EST",
+      "timezone": "America/Detroit",
+      "tzAbbrev": "EST",
+      "timeNote": "Session time slot; the program does not give per-presentation times within the session.",
+      "room": "Columbus",
+      "floor": "Renaissance Center Level 4",
+      "doi": null,
+      "acmDlUrl": null,
+      "videos": [],
+      "awards": [],
+      "url": "https://programs.sigchi.org/uist/2026/program/content/262865",
+      "relatedEntryId": 277827,
+      "ahl": {
+        "projectSlug": "gutio",
+        "projectUrl": "https://ahlab.org/projects/gutio/",
+        "image": "https://cdn.ahlab.org/media/site/projects/gutio/gutio.jpg",
+        "matchNote": "Related, not identical: ahlab.org project \"GutIO\" (gut-sensing line of work, shared authors Mia Huong Nguyen, Jochen Huber). No OpenGut project page exists yet.",
+        "members": [
+          {
+            "name": "Muftee Mysan",
+            "slug": "mohamed-muftee",
+            "url": "https://ahlab.org/people/mohamed-muftee/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Soundarya Ramesh",
+            "slug": "soundarya-ramesh",
+            "url": "https://ahlab.org/people/soundarya-ramesh/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Peter Cleveland",
+            "slug": "peter-cleveland",
+            "url": "https://ahlab.org/people/peter-cleveland/",
+            "section": "Current Team"
+          },
+          {
+            "name": "Ryo Hajika",
+            "slug": "ryo-hajika",
+            "url": "https://ahlab.org/people/ryo-hajika/",
+            "section": "Current Team"
+          },
+          {
+            "name": "Mia Huong Nguyen",
+            "slug": "mia-huong-nguyen",
+            "url": "https://ahlab.org/people/mia-huong-nguyen/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Jochen Huber",
+            "slug": "jochen-huber",
+            "url": "https://ahlab.org/people/jochen-huber/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Suranga Nanayakkara",
+            "slug": "suranga-nanayakkara",
+            "url": "https://ahlab.org/people/suranga-nanayakkara/",
+            "section": "Principal Investigator"
+          }
+        ]
+      }
+    },
+    {
+      "id": 262870,
+      "importedId": "papers2207",
+      "type": "Short Papers",
+      "track": "Short Papers",
+      "title": "HeadRoom: Lightweight, Edge-deployable Pipeline for Adaptive Notification Routing",
+      "authors": [
+        {
+          "name": "Dinithi Dissanayake",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Augmented Human Lab, School of Computing"
+            }
+          ],
+          "ahlSlug": "dinithi-dissanayake"
+        },
+        {
+          "name": "Prasanth Sasikumar",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Augmented Human Lab"
+            }
+          ],
+          "ahlSlug": "prasanth-sasikumar"
+        },
+        {
+          "name": "Suranga Nanayakkara",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore",
+              "dsl": "Augmented Human Lab"
+            }
+          ],
+          "ahlSlug": "suranga-nanayakkara"
+        }
+      ],
+      "abstract": "Emerging wearables, such as smart glasses, can deliver notifications through multiple sensory channels, but there is still a limited understanding of how to choose the right channel at the right moment. We propose HeadRoom, a lightweight, edge-deployable pipeline that estimates the availability of visual and auditory channels in real time from egocentric video and audio. Our controlled user study (N=25) shows that, under high perceptual load, routing notifications to the more available channel reduces response time relative to routing them to the less available channel. This work opens up a new possibility for adaptive routing of notifications in wearable and immersive systems.",
+      "keywords": [
+        "Wearable Computing",
+        "Intelligent Interfaces",
+        "Output Modalities",
+        "Multimodal Interaction",
+        "Adaptive Interfaces",
+        "User-Aware Computing",
+        "Egocentric Computing",
+        "Methodology & Systems"
+      ],
+      "session": {
+        "id": 278225,
+        "name": "Everyday Agents, Devices, and Behavior",
+        "note": null
+      },
+      "date": "2026-11-05",
+      "day": "Thursday",
+      "start": "2026-11-05T09:00:00-05:00",
+      "end": "2026-11-05T10:30:00-05:00",
+      "timeLocal": "9:00 AM - 10:30 AM EST",
+      "timezone": "America/Detroit",
+      "tzAbbrev": "EST",
+      "timeNote": "Session time slot; the program does not give per-presentation times within the session.",
+      "room": "LaSalle",
+      "floor": "Renaissance Center Level 5",
+      "doi": null,
+      "acmDlUrl": null,
+      "videos": [],
+      "awards": [],
+      "url": "https://programs.sigchi.org/uist/2026/program/content/262870",
+      "relatedEntryId": 277848,
+      "ahl": {
+        "projectSlug": null,
+        "projectUrl": null,
+        "image": null,
+        "matchNote": null,
+        "members": [
+          {
+            "name": "Dinithi Dissanayake",
+            "slug": "dinithi-dissanayake",
+            "url": "https://ahlab.org/people/dinithi-dissanayake/",
+            "section": "Current Team"
+          },
+          {
+            "name": "Prasanth Sasikumar",
+            "slug": "prasanth-sasikumar",
+            "url": "https://ahlab.org/people/prasanth-sasikumar/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Suranga Nanayakkara",
+            "slug": "suranga-nanayakkara",
+            "url": "https://ahlab.org/people/suranga-nanayakkara/",
+            "section": "Principal Investigator"
+          }
+        ]
+      }
+    },
+    {
+      "id": 275455,
+      "importedId": "ds1009",
+      "type": "Doctoral Symposium",
+      "track": "Doctoral Symposium",
+      "title": "User-Aware Wearable Assistance: Sensing When and How to Intervene",
+      "authors": [
+        {
+          "name": "Dinithi Dissanayake",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            }
+          ],
+          "ahlSlug": "dinithi-dissanayake"
+        }
+      ],
+      "abstract": null,
+      "keywords": [],
+      "session": {
+        "id": 278171,
+        "name": "Doctoral Symposium",
+        "note": "One event spanning Dearborn and Flint rooms at U-M Detroit Center; capacity 30 per room in Pods setup."
+      },
+      "date": "2026-11-02",
+      "day": "Monday",
+      "start": "2026-11-02T09:00:00-05:00",
+      "end": "2026-11-02T17:00:00-05:00",
+      "timeLocal": "9:00 AM - 5:00 PM EST",
+      "timezone": "America/Detroit",
+      "tzAbbrev": "EST",
+      "timeNote": "Session time slot; the program does not give per-presentation times within the session.",
+      "room": "Dearborn & Flint Rooms, U-M Detroit Center",
+      "floor": null,
+      "doi": null,
+      "acmDlUrl": null,
+      "videos": [],
+      "awards": [],
+      "url": "https://programs.sigchi.org/uist/2026/program/content/275455",
+      "relatedEntryId": null,
+      "ahl": {
+        "projectSlug": null,
+        "projectUrl": null,
+        "image": null,
+        "matchNote": null,
+        "members": [
+          {
+            "name": "Dinithi Dissanayake",
+            "slug": "dinithi-dissanayake",
+            "url": "https://ahlab.org/people/dinithi-dissanayake/",
+            "section": "Current Team"
+          }
+        ]
+      }
+    },
+    {
+      "id": 275891,
+      "importedId": "poster4399",
+      "type": "Poster",
+      "track": "Posters",
+      "title": "CoGaze: Webcam-Based Gaze Sharing for Asymmetric Remote Collaboration in Practical Deployment Contexts",
+      "authors": [
+        {
+          "name": "Takuma Masuda",
+          "affiliations": [
+            {
+              "country": "Japan",
+              "city": "Tokyo",
+              "institution": "The University of Electro-Communication"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            },
+            {
+              "country": "Japan",
+              "city": "Tokyo",
+              "institution": "The University of Electro-Communication",
+              "dsl": "Nojima lab"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Augmented Human lab"
+            }
+          ],
+          "ahlSlug": "takuma-masuda"
+        },
+        {
+          "name": "Prasanth Sasikumar",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "state": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            },
+            {
+              "country": "New Zealand",
+              "city": "Auckland",
+              "institution": "University of Auckland"
+            },
+            {
+              "country": "Singapore",
+              "state": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Augmented Human Lab"
+            },
+            {
+              "country": "New Zealand",
+              "city": "Auckland",
+              "institution": "University of Auckland",
+              "dsl": "Auckland Bioengineering Institute"
+            }
+          ],
+          "ahlSlug": "prasanth-sasikumar"
+        },
+        {
+          "name": "Sho Sakurai",
+          "affiliations": [
+            {
+              "country": "Japan",
+              "state": "Tokyo",
+              "city": "Chofu",
+              "institution": "The University of Electro-Communications"
+            },
+            {
+              "country": "Japan",
+              "state": "Tokyo",
+              "city": "Chofu",
+              "institution": "The University of Electro-Communications",
+              "dsl": "Graduate School of Informatics and Engineering"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Koichi Hirota",
+          "affiliations": [
+            {
+              "country": "Japan",
+              "state": "Tokyo",
+              "city": "Chofu",
+              "institution": "The University of Electro-Communications"
+            },
+            {
+              "country": "Japan",
+              "state": "Tokyo",
+              "city": "Chofu",
+              "institution": "The University of Electro-Communications",
+              "dsl": "Faculty of Informatics and Engineering"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Takuya Nojima",
+          "affiliations": [
+            {
+              "country": "Japan",
+              "city": "Tokyo",
+              "institution": "University of Electro-Communications"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Suranga Nanayakkara",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore",
+              "dsl": "Augmented Human Lab"
+            }
+          ],
+          "ahlSlug": "suranga-nanayakkara"
+        }
+      ],
+      "abstract": "Shared gaze helps re-establish joint attention in asymmetric remote\ncollaboration, yet existing MR systems source the expert’s gaze\nfrom a dedicated infrared eye tracker. We present CoGaze, which\nshares webcam-estimated expert gaze into a local worker’s MR\nview while an infrared reference records simultaneously, turning\nestimation noise into a measured variable. A four-participant pilot\nplaces that noise at 5.9° on average, with 95% of samples within 12.1°.\nWhether workers tolerate it remains untested: an instrumentation\ndefect left the displayed cue dominated by the infrared stream, so\nthe reduction in grounding cost we observed under gaze indicates\nthe value of gaze presence, not tolerance of webcam noise. We\ncontribute the system, the measured in-situ error bounds, a speechbased grounding measure sensitive where task accuracy was at\nceiling, and a successor design calibrated to those bounds.",
+      "keywords": [],
+      "session": {
+        "id": 278204,
+        "name": "Posters, Demos, and Student Innovation Contest Reception",
+        "note": null
+      },
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "start": "2026-11-03T18:00:00-05:00",
+      "end": "2026-11-03T21:00:00-05:00",
+      "timeLocal": "6:00 PM - 9:00 PM EST",
+      "timezone": "America/Detroit",
+      "tzAbbrev": "EST",
+      "timeNote": "Session time slot; the program does not give per-presentation times within the session.",
+      "room": "Ontario Exhib Hall & Ambassador Ballroom",
+      "floor": "Renaissance Center Level 3",
+      "doi": null,
+      "acmDlUrl": null,
+      "videos": [],
+      "awards": [],
+      "url": "https://programs.sigchi.org/uist/2026/program/content/275891",
+      "relatedEntryId": null,
+      "ahl": {
+        "projectSlug": null,
+        "projectUrl": null,
+        "image": null,
+        "matchNote": null,
+        "members": [
+          {
+            "name": "Takuma Masuda",
+            "slug": "takuma-masuda",
+            "url": "https://ahlab.org/people/takuma-masuda/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Prasanth Sasikumar",
+            "slug": "prasanth-sasikumar",
+            "url": "https://ahlab.org/people/prasanth-sasikumar/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Suranga Nanayakkara",
+            "slug": "suranga-nanayakkara",
+            "url": "https://ahlab.org/people/suranga-nanayakkara/",
+            "section": "Principal Investigator"
+          }
+        ]
+      }
+    },
+    {
+      "id": 276185,
+      "importedId": "demos1205",
+      "type": "Demo",
+      "track": "Demos",
+      "title": "FactNudger: An AI-Powered Wearable Fact-Checker for Everyday Conversations",
+      "authors": [
+        {
+          "name": "Chitralekha Gupta",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            },
+            {
+              "country": "United States",
+              "state": "Massachusetts",
+              "city": "Cambridge",
+              "institution": "MIT"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Augmented Human Lab, School of Computing"
+            },
+            {
+              "country": "United States",
+              "state": "Massachusetts",
+              "city": "Cambridge",
+              "institution": "MIT",
+              "dsl": "MIT Media Lab"
+            }
+          ],
+          "ahlSlug": "chitralekha-gupta"
+        },
+        {
+          "name": "Nadia Aritonang",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "Augmented Human Lab"
+            }
+          ],
+          "ahlSlug": "nadia-aritonang"
+        },
+        {
+          "name": "Valdemar Danry",
+          "affiliations": [
+            {
+              "country": "United States",
+              "state": "Massachusetts",
+              "city": "CAMBRIDGE",
+              "institution": "MIT"
+            },
+            {
+              "country": "United States",
+              "state": "Massachusetts",
+              "city": "CAMBRIDGE",
+              "institution": "MIT",
+              "dsl": "MIT Media Lab"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Timothy Antoni",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore",
+              "dsl": "Computer Science"
+            }
+          ],
+          "ahlSlug": "timothy-antoni"
+        },
+        {
+          "name": "Suranga Nanayakkara",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore",
+              "dsl": "Augmented Human Lab"
+            }
+          ],
+          "ahlSlug": "suranga-nanayakkara"
+        },
+        {
+          "name": "Pattie Maes",
+          "affiliations": [
+            {
+              "country": "United States",
+              "state": "Massachusetts",
+              "city": "Cambridge",
+              "institution": "MIT"
+            },
+            {
+              "country": "United States",
+              "state": "Massachusetts",
+              "city": "Cambridge",
+              "institution": "MIT",
+              "dsl": "Media Lab"
+            }
+          ],
+          "ahlSlug": "pattie-maes"
+        }
+      ],
+      "abstract": "Misinformation is often encountered through speech, where claims are fleeting and verification requires leaving the interaction. We present FactNudger, a wearable system that fact-checks everyday speech and selectively alerts users through a smartwatch. FactNudger transcribes conversation, interprets claims in context, retrieves web evidence, and decides whether to wait for more speech, remain silent, or deliver a haptic nudge. The watch presents a concise rationale, while a companion phone provides supporting sources. FactNudger achieved 77% binary verdict accuracy on 125 sampled AVeriTeC claims and selected the intended action for 40 of 50 conversational edge cases. The demonstration lets attendees experience and inspect real-time fact-checking across false claims, incomplete statements, corrections, repetitions, and context-dependent speech.",
+      "keywords": [],
+      "session": {
+        "id": 278204,
+        "name": "Posters, Demos, and Student Innovation Contest Reception",
+        "note": null
+      },
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "start": "2026-11-03T18:00:00-05:00",
+      "end": "2026-11-03T21:00:00-05:00",
+      "timeLocal": "6:00 PM - 9:00 PM EST",
+      "timezone": "America/Detroit",
+      "tzAbbrev": "EST",
+      "timeNote": "Session time slot; the program does not give per-presentation times within the session.",
+      "room": "Ontario Exhib Hall & Ambassador Ballroom",
+      "floor": "Renaissance Center Level 3",
+      "doi": null,
+      "acmDlUrl": null,
+      "videos": [],
+      "awards": [],
+      "url": "https://programs.sigchi.org/uist/2026/program/content/276185",
+      "relatedEntryId": null,
+      "ahl": {
+        "projectSlug": "factually",
+        "projectUrl": "https://ahlab.org/projects/factually/",
+        "image": "https://cdn.ahlab.org/media/site/projects/factually/factually.jpg",
+        "matchNote": "Strong match: ahlab.org project \"Factually\" (wearable real-time fact-checker; same team).",
+        "members": [
+          {
+            "name": "Chitralekha Gupta",
+            "slug": "chitralekha-gupta",
+            "url": "https://ahlab.org/people/chitralekha-gupta/",
+            "section": "Current Team"
+          },
+          {
+            "name": "Nadia Aritonang",
+            "slug": "nadia-aritonang",
+            "url": "https://ahlab.org/people/nadia-aritonang/",
+            "section": "Current Team"
+          },
+          {
+            "name": "Timothy Antoni",
+            "slug": "timothy-antoni",
+            "url": "https://ahlab.org/people/timothy-antoni/",
+            "section": "Current Team"
+          },
+          {
+            "name": "Suranga Nanayakkara",
+            "slug": "suranga-nanayakkara",
+            "url": "https://ahlab.org/people/suranga-nanayakkara/",
+            "section": "Principal Investigator"
+          },
+          {
+            "name": "Pattie Maes",
+            "slug": "pattie-maes",
+            "url": "https://ahlab.org/people/pattie-maes/",
+            "section": "Collaborators"
+          }
+        ]
+      }
+    },
+    {
+      "id": 277827,
+      "importedId": "demos1171",
+      "type": "Demo",
+      "track": "Demos",
+      "title": "OpenGut: An Open-Source Platform for Gut-Computer Interaction Research",
+      "authors": [
+        {
+          "name": "Muftee Mysan",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore"
+            },
+            {
+              "country": "Sri Lanka",
+              "city": "Moratuwa",
+              "institution": "University of Moratuwa"
+            }
+          ],
+          "ahlSlug": "mohamed-muftee"
+        },
+        {
+          "name": "Soundarya Ramesh",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            }
+          ],
+          "ahlSlug": "soundarya-ramesh"
+        },
+        {
+          "name": "Ryo Hajika",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            }
+          ],
+          "ahlSlug": "ryo-hajika"
+        },
+        {
+          "name": "Peter Cleveland",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            }
+          ],
+          "ahlSlug": "peter-cleveland"
+        },
+        {
+          "name": "Mia Huong Nguyen",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            }
+          ],
+          "ahlSlug": "mia-huong-nguyen"
+        },
+        {
+          "name": "Jochen Huber",
+          "affiliations": [
+            {
+              "country": "Germany",
+              "city": "Tuttlingen",
+              "institution": "Furtwangen University"
+            }
+          ],
+          "ahlSlug": "jochen-huber"
+        },
+        {
+          "name": "Marianna Obrist",
+          "affiliations": [
+            {
+              "country": "United Kingdom",
+              "city": "London",
+              "institution": "University College London"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Suranga Nanayakkara",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore"
+            }
+          ],
+          "ahlSlug": "suranga-nanayakkara"
+        }
+      ],
+      "abstract": null,
+      "keywords": [],
+      "session": {
+        "id": 278204,
+        "name": "Posters, Demos, and Student Innovation Contest Reception",
+        "note": null
+      },
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "start": "2026-11-03T18:00:00-05:00",
+      "end": "2026-11-03T21:00:00-05:00",
+      "timeLocal": "6:00 PM - 9:00 PM EST",
+      "timezone": "America/Detroit",
+      "tzAbbrev": "EST",
+      "timeNote": "Session time slot; the program does not give per-presentation times within the session.",
+      "room": "Ontario Exhib Hall & Ambassador Ballroom",
+      "floor": "Renaissance Center Level 3",
+      "doi": null,
+      "acmDlUrl": null,
+      "videos": [],
+      "awards": [],
+      "url": "https://programs.sigchi.org/uist/2026/program/content/277827",
+      "relatedEntryId": 262865,
+      "ahl": {
+        "projectSlug": "gutio",
+        "projectUrl": "https://ahlab.org/projects/gutio/",
+        "image": "https://cdn.ahlab.org/media/site/projects/gutio/gutio.jpg",
+        "matchNote": "Related, not identical: ahlab.org project \"GutIO\" (gut-sensing line of work, shared authors Mia Huong Nguyen, Jochen Huber). No OpenGut project page exists yet.",
+        "members": [
+          {
+            "name": "Muftee Mysan",
+            "slug": "mohamed-muftee",
+            "url": "https://ahlab.org/people/mohamed-muftee/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Soundarya Ramesh",
+            "slug": "soundarya-ramesh",
+            "url": "https://ahlab.org/people/soundarya-ramesh/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Ryo Hajika",
+            "slug": "ryo-hajika",
+            "url": "https://ahlab.org/people/ryo-hajika/",
+            "section": "Current Team"
+          },
+          {
+            "name": "Peter Cleveland",
+            "slug": "peter-cleveland",
+            "url": "https://ahlab.org/people/peter-cleveland/",
+            "section": "Current Team"
+          },
+          {
+            "name": "Mia Huong Nguyen",
+            "slug": "mia-huong-nguyen",
+            "url": "https://ahlab.org/people/mia-huong-nguyen/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Jochen Huber",
+            "slug": "jochen-huber",
+            "url": "https://ahlab.org/people/jochen-huber/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Suranga Nanayakkara",
+            "slug": "suranga-nanayakkara",
+            "url": "https://ahlab.org/people/suranga-nanayakkara/",
+            "section": "Principal Investigator"
+          }
+        ]
+      }
+    },
+    {
+      "id": 277848,
+      "importedId": "demos1047",
+      "type": "Demo",
+      "track": "Demos",
+      "title": "HeadRoom: Lightweight, Edge-deployable Pipeline for Adaptive Notification Routing",
+      "authors": [
+        {
+          "name": "Dinithi Dissanayake",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            }
+          ],
+          "ahlSlug": "dinithi-dissanayake"
+        },
+        {
+          "name": "Prasanth Sasikumar",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            }
+          ],
+          "ahlSlug": "prasanth-sasikumar"
+        },
+        {
+          "name": "Suranga Nanayakkara",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "School of Computing, National University of Singapore"
+            }
+          ],
+          "ahlSlug": "suranga-nanayakkara"
+        }
+      ],
+      "abstract": null,
+      "keywords": [],
+      "session": {
+        "id": 278204,
+        "name": "Posters, Demos, and Student Innovation Contest Reception",
+        "note": null
+      },
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "start": "2026-11-03T18:00:00-05:00",
+      "end": "2026-11-03T21:00:00-05:00",
+      "timeLocal": "6:00 PM - 9:00 PM EST",
+      "timezone": "America/Detroit",
+      "tzAbbrev": "EST",
+      "timeNote": "Session time slot; the program does not give per-presentation times within the session.",
+      "room": "Ontario Exhib Hall & Ambassador Ballroom",
+      "floor": "Renaissance Center Level 3",
+      "doi": null,
+      "acmDlUrl": null,
+      "videos": [],
+      "awards": [],
+      "url": "https://programs.sigchi.org/uist/2026/program/content/277848",
+      "relatedEntryId": 262870,
+      "ahl": {
+        "projectSlug": null,
+        "projectUrl": null,
+        "image": null,
+        "matchNote": null,
+        "members": [
+          {
+            "name": "Dinithi Dissanayake",
+            "slug": "dinithi-dissanayake",
+            "url": "https://ahlab.org/people/dinithi-dissanayake/",
+            "section": "Current Team"
+          },
+          {
+            "name": "Prasanth Sasikumar",
+            "slug": "prasanth-sasikumar",
+            "url": "https://ahlab.org/people/prasanth-sasikumar/",
+            "section": "Alumni"
+          },
+          {
+            "name": "Suranga Nanayakkara",
+            "slug": "suranga-nanayakkara",
+            "url": "https://ahlab.org/people/suranga-nanayakkara/",
+            "section": "Principal Investigator"
+          }
+        ]
+      }
+    },
+    {
+      "id": 277889,
+      "importedId": "demos1100",
+      "type": "Demo",
+      "track": "Demos",
+      "title": "FleetScape: A Mixed Reality Sandtable for Spatial Supervision and Control of Scalable Drone Fleets",
+      "authors": [
+        {
+          "name": "Xu Peisen",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "IPAL"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Jérémie Garcia",
+          "affiliations": [
+            {
+              "country": "France",
+              "city": "Toulouse",
+              "institution": "Fédération ENAC ISAE-SUPAERO ONERA, Université de Toulouse"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Peter Cleveland",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            }
+          ],
+          "ahlSlug": "peter-cleveland"
+        },
+        {
+          "name": "Wei Tsang Ooi",
+          "affiliations": [
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "National University of Singapore"
+            }
+          ],
+          "ahlSlug": null
+        },
+        {
+          "name": "Christophe Jouffrais",
+          "affiliations": [
+            {
+              "country": "France",
+              "city": "Toulouse",
+              "institution": "Univ of Toulouse 3"
+            },
+            {
+              "country": "Singapore",
+              "city": "Singapore",
+              "institution": "CNRS"
+            }
+          ],
+          "ahlSlug": null
+        }
+      ],
+      "abstract": null,
+      "keywords": [],
+      "session": {
+        "id": 278204,
+        "name": "Posters, Demos, and Student Innovation Contest Reception",
+        "note": null
+      },
+      "date": "2026-11-03",
+      "day": "Tuesday",
+      "start": "2026-11-03T18:00:00-05:00",
+      "end": "2026-11-03T21:00:00-05:00",
+      "timeLocal": "6:00 PM - 9:00 PM EST",
+      "timezone": "America/Detroit",
+      "tzAbbrev": "EST",
+      "timeNote": "Session time slot; the program does not give per-presentation times within the session.",
+      "room": "Ontario Exhib Hall & Ambassador Ballroom",
+      "floor": "Renaissance Center Level 3",
+      "doi": null,
+      "acmDlUrl": null,
+      "videos": [],
+      "awards": [],
+      "url": "https://programs.sigchi.org/uist/2026/program/content/277889",
+      "relatedEntryId": 262857,
+      "ahl": {
+        "projectSlug": null,
+        "projectUrl": null,
+        "image": null,
+        "matchNote": null,
+        "members": [
+          {
+            "name": "Peter Cleveland",
+            "slug": "peter-cleveland",
+            "url": "https://ahlab.org/people/peter-cleveland/",
+            "section": "Current Team"
+          }
+        ]
+      }
+    }
+  ]
+}
