@@ -211,6 +211,7 @@ function openDetail(hash, push = true) {
   const image = siblings.map((i) => i.ahl?.image).find(Boolean);
   const m = $('#detailMedia');
   m.className = `detail-media${image ? '' : ' placeholder'}`;
+  m.style.setProperty('--media-bg', image ? `url("${image}")` : 'none');
   m.innerHTML = image ? `<img src="${esc(image)}" alt="">` : `<span class="ph-name">${esc(shortName(e.title))}</span>`;
 
   const chips = siblings.map((s) => `<span class="chip"><i class="fa-solid ${TYPE_ICON[s.kind] ?? 'fa-circle'}" aria-hidden="true"></i>${esc(s.kind)}</span>`);

@@ -384,7 +384,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; margin: 0; lett
 
 /* ── Detail dialog ─────────────────────────────────────── */
 .detail {
-  width: min(880px, calc(100vw - 32px)); max-height: calc(100dvh - 48px);
+  width: min(1040px, calc(100vw - 48px)); max-height: calc(100dvh - 48px);
   padding: 0; border: 1px solid var(--float-line); border-radius: 20px;
   background: var(--surface); color: var(--text); box-shadow: var(--shadow-lg);
   overflow: hidden;
@@ -392,12 +392,20 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; margin: 0; lett
 .detail::backdrop { background: rgba(14, 15, 17, 0.45); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); }
 .detail[open] { animation: dlg-in .28s ease; }
 @keyframes dlg-in { from { opacity: 0; } to { opacity: 1; } }
-.detail-inner { position: relative; display: grid; grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr); max-height: calc(100dvh - 48px); }
+.detail-inner { position: relative; display: grid; grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr); max-height: calc(100dvh - 48px); }
 .detail-media { background: var(--surface-2); min-height: 100%; display: grid; place-items: center; padding: 20px; }
-.detail-media img { width: 100%; height: auto; max-height: 70vh; object-fit: contain; border-radius: var(--radius); }
+/* Blurred copy of the project image fills the pane around the picture */
+.detail-media:not(.placeholder) { position: relative; overflow: hidden; isolation: isolate; }
+.detail-media:not(.placeholder)::before {
+  content: ""; position: absolute; inset: -60px; z-index: -1;
+  background: var(--media-bg, none) center / cover; filter: blur(48px) saturate(1.3); opacity: .45;
+}
+.detail-media img { box-shadow: var(--shadow); width: 100%; height: auto; max-height: 70vh; object-fit: contain; border-radius: var(--radius); }
 .detail-media.placeholder { padding: 0; }
 .detail-media.placeholder { background: var(--gradient); }
-.detail-body { padding: 28px 30px 26px; overflow-y: auto; overscroll-behavior: contain; display: grid; align-content: start; gap: 12px; }
+/* Cap the body so it scrolls inside the dialog; the grid row then matches the visible
+   height and the media stays centred instead of drifting below the fold. */
+.detail-body { max-height: calc(100dvh - 48px); padding: 28px 30px 26px; overflow-y: auto; overscroll-behavior: contain; display: grid; align-content: start; gap: 12px; }
 .detail-close { position: absolute; top: 12px; right: 12px; background: var(--float-bg); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); z-index: 2; }
 .detail-chips { display: flex; flex-wrap: wrap; gap: 6px; padding-right: 40px; }
 .detail h2 { font-size: clamp(21px, 3.2vh, 27px); line-height: 1.2; }
@@ -449,7 +457,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; margin: 0; lett
   .detail-media { min-height: 0; padding: 14px; }
   .detail-media img { max-height: 45vh; }
   .detail-media.placeholder { aspect-ratio: 16 / 9; }
-  .detail-body { overflow: visible; padding: 22px 20px 24px; }
+  .detail-body { max-height: none; overflow: visible; padding: 22px 20px 24px; }
 }
 @media (max-width: 620px) {
   .topbar { margin: 8px 8px 0; top: 8px; height: 56px; gap: 8px; }
