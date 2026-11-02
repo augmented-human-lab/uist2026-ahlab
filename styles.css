@@ -231,7 +231,9 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; margin: 0; lett
 .fu-day { font-family: var(--font-display); font-weight: 700; font-size: 14px; line-height: 1.15; }
 .fu-day small { display: block; font-family: var(--font-text); font-weight: 400; font-size: 12px; color: var(--text-3); }
 .fu-what { min-width: 0; font-size: 14px; line-height: 1.3; }
-.fu-what .fu-title { display: block; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 500; }
+.fu-what .fu-title { display: flex; align-items: center; gap: 6px; min-width: 0; font-weight: 500; }
+.fu-what .fu-name { min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.fu-what .fu-title .chip { flex: none; }
 .fu-what .fu-sub { display: block; color: var(--text-3); font-size: 12.5px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .text-link { font-weight: 600; font-size: 14px; }
 
@@ -282,7 +284,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; margin: 0; lett
 /* No project photo: the project's name set large on the brand gradient */
 .ph-name {
   font-family: var(--font-display); font-weight: 700; color: #fff;
-  font-size: clamp(26px, 4.4vh, 40px); letter-spacing: -0.02em; text-align: center; padding: 0 16px;
+  font-size: clamp(26px, 4.4vh, 40px); line-height: 1.1; letter-spacing: -0.02em; text-align: center; padding: 0 16px;
   text-shadow: 0 2px 18px rgba(14, 15, 17, .18);
 }
 .card-media.placeholder, .detail-media.placeholder {
@@ -443,9 +445,11 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 700; margin: 0; lett
   .section-note { justify-self: start; text-align: left; }
   .card.wide { grid-template-columns: 1fr; }
   .card.wide .card-media { aspect-ratio: 16 / 9; }
-  .detail-inner { grid-template-columns: 1fr; overflow-y: auto; }
-  .detail-media { aspect-ratio: 16 / 9; min-height: 0; }
-  .detail-body { overflow: visible; }
+  .detail-inner { display: block; overflow-y: auto; overscroll-behavior: contain; }
+  .detail-media { min-height: 0; padding: 14px; }
+  .detail-media img { max-height: 45vh; }
+  .detail-media.placeholder { aspect-ratio: 16 / 9; }
+  .detail-body { overflow: visible; padding: 22px 20px 24px; }
 }
 @media (max-width: 620px) {
   .topbar { margin: 8px 8px 0; top: 8px; height: 56px; gap: 8px; }

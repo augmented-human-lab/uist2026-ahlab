@@ -149,7 +149,7 @@ function renderFindUs() {
     const badge = st === 'now' ? '<span class="chip live"><span class="live-dot"></span>Now</span>' : '';
     return `<li class="${st}"><a href="#${e.hash}" data-open="${e.hash}">
       <span class="fu-day">${esc(dayShort(e.startD))} ${esc(dayDate(e.startD))}<small>${esc(timeOf(e.startD))}</small></span>
-      <span class="fu-what"><span class="fu-title">${esc(title)} ${badge}</span><span class="fu-sub">${esc(sub)}</span></span>
+      <span class="fu-what"><span class="fu-title"><span class="fu-name">${esc(title)}</span>${badge}</span><span class="fu-sub">${esc(sub)}</span></span>
     </a></li>`;
   });
   $('#findUs').innerHTML = rows.join('');
