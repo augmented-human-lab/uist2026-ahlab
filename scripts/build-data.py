@@ -32,6 +32,7 @@ PROJ={276185:'factually',262865:'gutio',277827:'gutio'}
 PROJNOTE={276185:'Strong match: ahlab.org project "Factually" (wearable real-time fact-checker; same team).',
  262865:'Related, not identical: ahlab.org project "GutIO" (gut-sensing line of work, shared authors Mia Huong Nguyen, Jochen Huber). No OpenGut project page exists yet.',
  277827:'Related, not identical: ahlab.org project "GutIO" (gut-sensing line of work, shared authors Mia Huong Nguyen, Jochen Huber). No OpenGut project page exists yet.'}
+IMG={262865:'assets/projects/opengut.jpg',277827:'assets/projects/opengut.jpg'}  # local images override the ahlab.org project photo
 PAIR={262865:277827,277827:262865,262870:277848,277848:262870,262857:277889,277889:262857}
 ids=[262857,262865,262870,275455,275891,276185,277827,277848,277889]
 from datetime import timezone as _Z
@@ -65,7 +66,7 @@ for i in ids:
     'url':f'https://programs.sigchi.org/uist/2026/program/content/{i}',
     'relatedEntryId':PAIR.get(i),
     'ahl':{'projectSlug':slug,'projectUrl':f'https://ahlab.org/projects/{slug}/' if slug else None,
-           'image':f'https://cdn.ahlab.org/media/site/projects/{slug}/{slug}.jpg' if slug else None,
+           'image':IMG.get(i) or (f'https://cdn.ahlab.org/media/site/projects/{slug}/{slug}.jpg' if slug else None),
            'matchNote':PROJNOTE.get(i),'members':members}})
 conf=d['conference']
 allts=[t for t in d['timeSlots']]

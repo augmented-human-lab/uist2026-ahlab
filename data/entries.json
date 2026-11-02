@@ -278,7 +278,7 @@
       "ahl": {
         "projectSlug": "gutio",
         "projectUrl": "https://ahlab.org/projects/gutio/",
-        "image": "https://cdn.ahlab.org/media/site/projects/gutio/gutio.jpg",
+        "image": "assets/projects/opengut.jpg",
         "matchNote": "Related, not identical: ahlab.org project \"GutIO\" (gut-sensing line of work, shared authors Mia Huong Nguyen, Jochen Huber). No OpenGut project page exists yet.",
         "members": [
           {
@@ -978,7 +978,7 @@
       "ahl": {
         "projectSlug": "gutio",
         "projectUrl": "https://ahlab.org/projects/gutio/",
-        "image": "https://cdn.ahlab.org/media/site/projects/gutio/gutio.jpg",
+        "image": "assets/projects/opengut.jpg",
         "matchNote": "Related, not identical: ahlab.org project \"GutIO\" (gut-sensing line of work, shared authors Mia Huong Nguyen, Jochen Huber). No OpenGut project page exists yet.",
         "members": [
           {
