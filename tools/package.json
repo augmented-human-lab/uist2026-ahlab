@@ -1,0 +1,7 @@
+{
+  "name": "uist2026-tools",
+  "private": true,
+  "type": "module",
+  "description": "Headless-Chrome checks and share-image render for uist2026.ahlab.org",
+  "dependencies": { "puppeteer-core": "^23.11.1" }
+}
